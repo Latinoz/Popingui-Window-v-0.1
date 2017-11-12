@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0256B958-F3D7-488F-BB25-9316B6FB0AD7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PopinGUI_Form</RootNamespace>
-    <AssemblyName>PopinGUI_Form</AssemblyName>
+    <RootNamespace>PopinGUI</RootNamespace>
+    <AssemblyName>PopinGUI</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

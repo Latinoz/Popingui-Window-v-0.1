@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
@@ -49,19 +43,7 @@ namespace PopinGUI_Form
                         label1.Text = "Ping'a нет!";
                     }
                 }
-                //Task thread1 = new Task(PingFuncion);
-                //////Thread thread2 = new Thread(PingFuncion);
-
-
-                //////thread2.Start();
-                //int n = 0;
-                //while (n++ < 4)
-                //{
-                //    //PingFuncion();
-                //    thread1.Start();
-                //    thread1.Wait();
-
-                //}
+                
 
             }
 
@@ -99,16 +81,13 @@ namespace PopinGUI_Form
             {
                 // Пингуем хост
                 DoPingThread();
-                
-                
-
+    
             }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
-            //label1.Text = textBox1.Text;
+       
         }
 
         private void button2_Click(object sender, EventArgs e)
